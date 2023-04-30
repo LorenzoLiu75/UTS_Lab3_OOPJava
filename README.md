@@ -3,7 +3,7 @@ Repository ini dibuat untuk menyelesaikan UTS Lab 3 PBO dan menampilkan screensh
 ## Screenshot
 
 # Soal Nomor 2
-https://github.com/LorenzoLiu75/UTS_Lab3_OOPJava/blob/main/Screenshots/SS_Hasil%20Program_Nomor%202.png
+![Soal2](https://github.com/LorenzoLiu75/UTS_Lab3_OOPJava/blob/main/Screenshots/SS_Hasil%20Program_Nomor%202.png)
 
 # Soal Nomor 3
 https://github.com/LorenzoLiu75/UTS_Lab3_OOPJava/blob/main/Screenshots/SS_Hasil%20Program_Nomor%203.png
