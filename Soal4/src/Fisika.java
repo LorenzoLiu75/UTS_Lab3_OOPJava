@@ -16,7 +16,7 @@ public class Fisika extends Matematika {
     public double getResult1() {
         double f;
 
-        f = k * this.q1 * this.q2 / Math.pow(r,2);
+        f = k * this.q1 * this.q2 / Math.pow(this.r,2);
 
         return f;
     }
