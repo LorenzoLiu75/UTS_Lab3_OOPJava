@@ -19,16 +19,24 @@ public class Matematika {
     }
 
     public double getresult1() {
-        if (this.getDiskriminan() < 0) {
-            return 0;
+        if (a == 0) {
+            System.out.println("Error: a tidak boleh bernilai 0");
+            return Double.NaN;
+        } else if (this.getDiskriminan() < 0) {
+            System.out.println("Tidak ada akar real!");
+            return Double.NaN;
         } else {
             return (-this.b + Math.sqrt(this.getDiskriminan())) / (2 * this.a);
         }
     }
 
     public double getresult2() {
-        if (this.getDiskriminan() < 0) {
-            return 0;
+        if (a == 0) {
+            System.out.println("Error: a tidak boleh bernilai 0");
+            return Double.NaN;
+        } else if (this.getDiskriminan() < 0) {
+            System.out.println("Tidak ada akar real!");
+            return Double.NaN;
         } else {
             return (-this.b - Math.sqrt(this.getDiskriminan())) / (2 * this.a);
         }
